@@ -12,7 +12,7 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
   {
     name: 'CSS Basics',
@@ -20,21 +20,14 @@ export const TOPICS: Topic[] = [
       'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/',
     worksheetLink:
       'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
   {
     name: 'Intro to JavaScript',
     slidesLink:
       'http://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/',
     worksheetLink: 'https://bit.ly/js-worksheet',
-    areLinksEnabled: true,
-  },
-  {
-    name: 'JavaScript: ES6',
-    slidesLink:
-      'https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/ES6/es6.html#/',
-    worksheetLink: 'https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/?id=worksheets',
-    areLinksEnabled: true,
+    areLinksEnabled: false,
   },
 ];
 
@@ -48,60 +41,15 @@ export interface Session {
 
 export const SESSIONS: Session[] = [
   {
-    date: '2024-02-10',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Glass | HTML & Front-End Architecture',
+    date: '2024-10-05',
+    time: '10am-12pm',
+    name: 'Coding & Cupcakes: Introduction to HTML (Wizardry Halloween Edition)',
     eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-glass-html-and-front-end-architecture-tickets-786460995007',
+      'https://www.eventbrite.com/e/coding-cupcakes-introduction-to-html-wizardry-halloween-edition-tickets-1012371609737',
     eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=786460995007&ref=ccweb',
-  },
-  {
-    date: '2024-03-09',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Garnish | Intro to CSS',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-828781697367',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=828781697367&ref=ccweb',
-  },
-  {
-    date: '2024-04-13',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Liquor | Intro to Javascript',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-liquor-intro-to-javascript-tickets-862499748967',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=862499748967&ref=ccweb',
-  },
-  {
-    date: '2024-06-08',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: Top Shelf | Advanced Javascript ES6',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-top-shelf-advanced-javascript-es6-tickets-887879931777',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=887879931777&ref=ccweb',
-  },
-  {
-    date: '2024-08-10',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Glass | HTML and Front-End Architecture',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-glass-html-and-front-end-architecture-tickets-888472393847',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=888472393847&ref=ccweb',
-  },
-  {
-    date: '2024-09-14',
-    time: '4-8pm',
-    name: 'Coding & Cocktails: The Garnish | Intro to CSS',
-    eventbriteLink:
-      'https://www.eventbrite.com/e/coding-cocktails-the-garnish-introduction-to-css-tickets-986762462087',
-    eventbriteIFrameLink:
-      '//eventbrite.com/tickets-external?eid=986762462087&ref=ccweb',
+      '//eventbrite.com/tickets-external?eid=1012371609737&ref=ccweb',
   },
 ];
 
 // Month to display for upcoming session. Use 7 for July, 8 for Aug, etc
-export const UPCOMING_SESSION_MONTH = 5 + 1;
+export const UPCOMING_SESSION_MONTH = 1;

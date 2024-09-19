@@ -7,46 +7,28 @@ export interface Hero {
 
 export const LEADERS: Hero[] = [
   {
-    name: 'Jennifer Wadella',
-    title: 'Founder',
-    img: 'assets/images/mentors/jennifer.png',
-    twitter: 'likeOMGitsFEDAY'
-  },
-  {
-    name: 'Amy Norris',
+    name: 'Jasmine Zuvanich Perez',
     title: 'Director',
-    img: 'assets/images/mentors/amy.jpg',
-    twitter: 'amynorris'
+    img: 'assets/images/mentors/jasmine.jpg',
+    twitter: 'jasmine-perez-1b7566271'
   },
   {
-    name: 'Gabi Dombrowski',
-    title: 'Mentor Director',
-    img: 'assets/images/mentors/gabi.jpg',
-    twitter: 'gabdom'
-  },
-  {
-    name: 'Nessa Shultz',
-    title: 'Presentation Director',
-    img: 'assets/images/mentors/nessa.jpg',
-    twitter: 'codecocktailskc',
-  },
-  {
-    name: 'Kim Watt',
-    title: 'Marketing Director',
-    img: 'assets/images/mentors/kim.jpg',
-    twitter: 'codecocktailskc'
-  },
-  {
-    name: 'Alex Herron',
+    name: 'Mercy Maigut',
     title: 'Co-Director',
-    img: 'assets/images/mentors/alex.jpg',
-    twitter: 'AlexEHerron'
+    img: 'assets/images/mentors/mercy.jpg',
+    twitter: 'mercy-maigut-624845316'
   },
   {
-    name: 'Lulu Cao',
+    name: 'Haley Ellermann',
     title: 'Curriculum Director',
-    img: 'assets/images/mentors/lulu.png',
-    twitter: 'codecocktailskc'
+    img: 'assets/images/mentors/haley.jpg',
+    twitter: 'haley-ellermann-4315b2199'
+  },
+  {
+    name: 'Taylor Jordan',
+    title: 'Marketing and Outreach Director',
+    img: 'assets/images/mentors/taylor.jpg',
+    twitter: 'taylor-jordan-21998694',
   }
 ];
 

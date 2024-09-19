@@ -33,7 +33,7 @@ export class SignupComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.upcomingSession = this.sessions[this.upcomingSessionMonth - 1];
+    this.upcomingSession = this.sessions[this.sessions.length - 1];
 
     // bypass sanitization of the url so that we can display the iframe
     this.upcomingSessionTicketLink = this.sanitizer.bypassSecurityTrustResourceUrl(this.upcomingSession.eventbriteIFrameLink);
