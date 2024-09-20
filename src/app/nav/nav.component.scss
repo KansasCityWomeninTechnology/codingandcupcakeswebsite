@@ -1,19 +1,21 @@
-@import 'variables';
-@import 'typography';
-
 .nav-background {
     background: #e29bad;
 }
 
-.dropdown-item:hover{
-    background-color: #e29bad;
-}
-
-.dropdown-menu>li>a{
-    color: $white;
-    opacity: 0.5;
+.nav-link, .dropdown-item {
+    color: #ffffff !important;  // Force color to be white
+    opacity: 1 !important;  // Force full opacity for bold color
 
     &:hover {
-        opacity: 0.75;
+        opacity: 0.85 !important;  // Slightly reduce opacity on hover if desired
+    }
+}
+
+.dropdown-menu>li>a {
+    color: #ffffff !important;  // Force text color to white
+    opacity: 1 !important;  // Force full opacity
+
+    &:hover {
+        opacity: 0.85 !important;  // Slightly reduce opacity on hover
     }
 }

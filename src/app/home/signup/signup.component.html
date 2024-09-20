@@ -17,9 +17,9 @@
 <!--        </google-map>-->
 <!--      </div>-->
       <div class="col-sm-12 align-self-center">
-        <h5>To ensure the health and safety of our attendees and volunteers, we are evaluating how to best host Coding & Cupcakes sessions. Watch this space for updates on events. Events will note whether they are online or in person.</h5>
-        <h5>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}
-          <br />{{upcomingSession.name}}</h5>
+        <h5><b>To ensure the health and safety of our attendees and volunteers, we are evaluating how to best host Coding & Cupcakes sessions. Watch this space for updates on events. Events will note whether they are online or in person.</b></h5>
+        <h5><b>Upcoming Session: <br>{{upcomingSession.date | date:'fullDate'}}, {{upcomingSession.time}}</b>
+          <br /><b>{{upcomingSession.name}}</b></h5>
 <!--        <p>Note: wifi-enabled laptops are required to attend!</p>-->
         
         <div style="width:100%; text-align:left;"><iframe [attr.src]="upcomingSessionTicketLink" frameborder="0" height="700" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true" title="Sign Up Form"></iframe></div>
@@ -27,7 +27,7 @@
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <h5>{{sessions[0].date | date: 'y'}} Sessions</h5>
+        <h5><b>{{sessions[0].date | date: 'y'}} Sessions</b></h5>
 
         <p>If the event is not yet available for sign ups, you will be directed to the Coding &amp; Cupcakes Eventbrite page.</p>
         <ul class="list-unstyled" *ngFor="let session of sessions">
