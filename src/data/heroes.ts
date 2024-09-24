@@ -7,10 +7,10 @@ export interface Hero {
 
 export const LEADERS: Hero[] = [
   {
-    name: 'Jasmine Zuvanich Perez',
+    name: 'Taylor Jordan',
     title: 'Director',
-    img: 'assets/images/mentors/jasmine.jpg',
-    twitter: 'jasmine-perez-1b7566271'
+    img: 'assets/images/mentors/taylor.jpg',
+    twitter: 'taylor-jordan-21998694'
   },
   {
     name: 'Mercy Maigut',
@@ -24,12 +24,17 @@ export const LEADERS: Hero[] = [
     img: 'assets/images/mentors/haley.jpg',
     twitter: 'haley-ellermann-4315b2199'
   },
-  {
-    name: 'Taylor Jordan',
-    title: 'Marketing and Outreach Director',
-    img: 'assets/images/mentors/taylor.jpg',
-    twitter: 'taylor-jordan-21998694',
-  }
+  // {
+  //   name: 'TBD',
+  //   title: 'Marketing and Outreach Director',
+  //   img: 'assets/images/mentors/.jpg',
+  //   twitter: '',
+
+  //   name: 'TBD',
+  //   title: 'Sponsorship Director',
+  //   img: 'assets/images/mentors/.jpg',
+  //   twitter: '',
+  // }
 ];
 
 export const MENTORS: Hero[] = [
